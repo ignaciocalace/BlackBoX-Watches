@@ -1,13 +1,11 @@
 import React from "react";
+import { BsCart4 } from "react-icons/bs";
 
 const CartWidget = () => {
   return (
-    <div>
-      <img
-        className="img-fluid w-50"
-        src="./../src/assets/cart-shopping-solid.svg"
-        alt=""
-      />
+    <div className="m-5 d-flex">
+      <BsCart4 className="fs-1" />
+
       <p>3</p>
     </div>
   );
