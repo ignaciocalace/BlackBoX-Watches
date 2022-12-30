@@ -1,5 +1,5 @@
 import React from "react";
-
+import "/src/components/BrandName/BrandName.css";
 import Stack from "react-bootstrap/Stack";
 
 const BrandName = () => {
@@ -7,11 +7,10 @@ const BrandName = () => {
     <div>
       <Stack direction="horizontal" gap={3}>
         <img
-          className="img-fluid w-25"
-          src="./../src/assets/bbox.png"
+          className="img-fluid image"
+          src="/assets/bbox.png"
           alt="BrandLogo"
         />
-
         <h2>BlackBoX</h2>
       </Stack>
     </div>

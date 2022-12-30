@@ -15,22 +15,22 @@ const NavBar = () => {
           </NavLink>
         </Navbar.Brand>
         <Nav className="px-1 d-flex justify-content-between align-items-center col-4">
-          <NavLink to="/" className="text-decoration-none text-reset">
+          <NavLink to="/" className="text-decoration-none text-reset p-1">
             Home
           </NavLink>
-          <NavLink to="/men" className="text-decoration-none text-reset">
+          <NavLink to="/men" className="text-decoration-none text-reset p-1">
             Men
           </NavLink>
-          <NavLink to="/women" className="text-decoration-none text-reset">
+          <NavLink to="/women" className="text-decoration-none text-reset p-1">
             Women
           </NavLink>
-          <NavLink to="/kids" className="text-decoration-none text-reset">
+          <NavLink to="/kids" className="text-decoration-none text-reset p-1">
             Kids
           </NavLink>
-          <NavLink to="/info" className="text-decoration-none text-reset">
-            Info
+
+          <NavLink to="/cart" className="text-decoration-none text-reset p-1">
+            <CartWidget />
           </NavLink>
-          <CartWidget />
         </Nav>
       </Container>
     </Navbar>
