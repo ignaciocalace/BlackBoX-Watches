@@ -6,7 +6,7 @@ Blackbox Watches is an ecommerce website designed for the sale of watches.
 
 ### Demo
 
-[https://cute-quokka-d2cb58.netlify.app/]
+[https://blackbox-react.netlify.app/]
 
 ## Dependencies
 
